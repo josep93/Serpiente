@@ -48,6 +48,21 @@ public class OptionsScript : MonoBehaviour
     }
 
     /// <summary>
+    /// Rellenamos el dropdown de la lista de resoluciones
+    /// </summary>
+    private void fillDropDown()
+    {
+        drpDown.ClearOptions();
+        List<string> listResolutions = new List<string>();
+
+        for (int i = 0; i < resolutions.Length / 2; i++)
+        {
+            listResolutions.Add(resolutions[i, 0] + "x" + resolutions[i, 1]);
+        }
+        drpDown.AddOptions(listResolutions);
+    }
+
+    /// <summary>
     /// Guardamos los datos de configuración
     /// </summary>
     private void SaveSettings()
@@ -69,20 +84,4 @@ public class OptionsScript : MonoBehaviour
         drpDown.value = resolution;
         ChangeResolution(resolution);
     }
-
-    /// <summary>
-    /// Rellenamos el dropdown de la lista de resoluciones
-    /// </summary>
-    private void fillDropDown()
-    {
-        drpDown.ClearOptions();
-        List<string> listResolutions = new List<string>();
-
-        for (int i = 0; i < resolutions.Length / 2; i ++)
-        {
-            listResolutions.Add(resolutions[i,0] + "x" + resolutions[i,1]);
-        }
-        drpDown.AddOptions(listResolutions);
-    }
-
 }
