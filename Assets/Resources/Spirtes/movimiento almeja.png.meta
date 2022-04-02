@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 3e893f71023ee994b9f8129715822773
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5406263948209952774
+    second: movimiento almeja_0
+  - first:
+      213: -8228129994277249275
+    second: movimiento almeja_1
+  - first:
+      213: -5004270158472900511
+    second: movimiento almeja_2
+  - first:
+      213: 7061508650767409199
+    second: movimiento almeja_3
+  - first:
+      213: -7624626669696950989
+    second: movimiento almeja_4
+  - first:
+      213: -726687257409525271
+    second: movimiento almeja_5
+  - first:
+      213: -6505837054511748637
+    second: movimiento almeja_6
+  - first:
+      213: 7845236200235806990
+    second: movimiento almeja_7
+  - first:
+      213: 4277241222327265306
+    second: movimiento almeja_8
+  - first:
+      213: 6739436654625115878
+    second: movimiento almeja_9
+  - first:
+      213: 1513681951203793260
+    second: movimiento almeja_10
+  - first:
+      213: 2360503366063200472
+    second: movimiento almeja_11
+  - first:
+      213: 840081625056966358
+    second: movimiento almeja_12
+  - first:
+      213: 2589372348445927373
+    second: movimiento almeja_13
+  - first:
+      213: -5581240331693339014
+    second: movimiento almeja_14
+  - first:
+      213: -3471828864893347001
+    second: movimiento almeja_15
+  - first:
+      213: 2832223071372358689
+    second: movimiento almeja_16
+  - first:
+      213: -6379492362857419263
+    second: movimiento almeja_17
+  - first:
+      213: -6077790191932075972
+    second: movimiento almeja_18
+  - first:
+      213: 1459941040409367384
+    second: movimiento almeja_19
+  - first:
+      213: -4955504583389728647
+    second: movimiento almeja_20
+  - first:
+      213: 129661947397909578
+    second: movimiento almeja_21
+  - first:
+      213: -3115641689167297541
+    second: movimiento almeja_22
+  - first:
+      213: 1248569139373248936
+    second: movimiento almeja_23
+  - first:
+      213: -5978813371398914512
+    second: movimiento almeja_24
+  - first:
+      213: 3877709145151152644
+    second: movimiento almeja_25
+  - first:
+      213: -6972298336306897419
+    second: movimiento almeja_26
+  - first:
+      213: 8178959484410583861
+    second: movimiento almeja_27
+  - first:
+      213: 8892354998131170471
+    second: movimiento almeja_28
+  - first:
+      213: -2326152892444500394
+    second: movimiento almeja_29
+  - first:
+      213: 1135124855441315029
+    second: movimiento almeja_30
+  - first:
+      213: 9148598419703748557
+    second: movimiento almeja_31
+  - first:
+      213: -34911463371847257
+    second: movimiento almeja_32
+  - first:
+      213: -7894503450110623353
+    second: movimiento almeja_33
+  - first:
+      213: 8325915042630307060
+    second: movimiento almeja_34
+  - first:
+      213: -6808098399742959986
+    second: movimiento almeja_35
+  - first:
+      213: 3440928638266426648
+    second: movimiento almeja_36
+  - first:
+      213: -1511785354753678368
+    second: movimiento almeja_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: movimiento almeja_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2966
+        width: 270
+        height: 332
+      alignment: 9
+      pivot: {x: 0.48189083, y: 0.6030928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6081e03da68e60b40800000000000000
+      internalID: 5406263948209952774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2969
+        width: 258
+        height: 336
+      alignment: 9
+      pivot: {x: 0.48104858, y: 0.60914177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f1e5d5d5fcfcd80800000000000000
+      internalID: -8228129994277249275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2563
+        width: 270
+        height: 331
+      alignment: 9
+      pivot: {x: 0.50905466, y: 0.625562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9e0471baf96b5a0800000000000000
+      internalID: -6505837054511748637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_7
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2569
+        width: 260
+        height: 335
+      alignment: 9
+      pivot: {x: 0.5282088, y: 0.63136005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01371e12c0efdc60800000000000000
+      internalID: 7845236200235806990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_22
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1774
+        width: 276
+        height: 335
+      alignment: 9
+      pivot: {x: 0.4758182, y: 0.58633286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf309cd146403c4d0800000000000000
+      internalID: -3115641689167297541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_23
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1782
+        width: 289
+        height: 321
+      alignment: 9
+      pivot: {x: 0.47690612, y: 0.5346531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a19bdd540fc35110800000000000000
+      internalID: 1248569139373248936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_24
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1775
+        width: 291
+        height: 359
+      alignment: 9
+      pivot: {x: 0.51529026, y: 0.5743643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e79637aecf60da0800000000000000
+      internalID: -5978813371398914512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_25
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1775
+        width: 302
+        height: 345
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.551588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402a40b2ce360d530800000000000000
+      internalID: 3877709145151152644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1375
+        width: 277
+        height: 335
+      alignment: 9
+      pivot: {x: 0.50803155, y: 0.5929738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd516c9a9b6d3f90800000000000000
+      internalID: -6972298336306897419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1380
+        width: 285
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5156121, y: 0.55281264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bda9c2150818170800000000000000
+      internalID: 8178959484410583861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1365
+        width: 297
+        height: 369
+      alignment: 9
+      pivot: {x: 0.48501864, y: 0.572349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac1740d1cdf76b70800000000000000
+      internalID: 8892354998131170471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_29
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1383
+        width: 301
+        height: 344
+      alignment: 9
+      pivot: {x: 0.49260926, y: 0.53880346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e1990d448d7bfd0800000000000000
+      internalID: -2326152892444500394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 984
+        width: 236
+        height: 335
+      alignment: 9
+      pivot: {x: 0.46624026, y: 0.5891882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4db48ba06c0cf00800000000000000
+      internalID: 1135124855441315029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_31
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 991
+        width: 243
+        height: 324
+      alignment: 9
+      pivot: {x: 0.46721306, y: 0.5983634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc754279ac956fe70800000000000000
+      internalID: 9148598419703748557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_32
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 988
+        width: 240
+        height: 318
+      alignment: 9
+      pivot: {x: 0.48340252, y: 0.60648334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9c1238538f38ff0800000000000000
+      internalID: -34911463371847257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_33
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 984
+        width: 253
+        height: 334
+      alignment: 9
+      pivot: {x: 0.48425534, y: 0.58945525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7818f0260f6117290800000000000000
+      internalID: -7894503450110623353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 590
+        width: 236
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5253202, y: 0.63199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc8f026e979b8370800000000000000
+      internalID: 8325915042630307060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_35
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 590
+        width: 243
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5163941, y: 0.6413964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e5a678396c481a0800000000000000
+      internalID: -6808098399742959986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_36
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 602
+        width: 239
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5083345, y: 0.6378007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815c65d9d52a0cf20800000000000000
+      internalID: 3440928638266426648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento almeja_37
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 597
+        width: 253
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5236194, y: 0.61927235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3e449ca3f050be0800000000000000
+      internalID: -1511785354753678368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
