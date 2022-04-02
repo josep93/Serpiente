@@ -10,6 +10,12 @@ public class PlayerScript : MonoBehaviour
     private InputSystem input;
     private Vector2 movement, movementAxis;
     [SerializeField] private int direction;
+    private Animator animator;
+    private PlayerAnimator playerAnimator;
+    private int animState = 0;
+
+    public int Direction { get => direction;}
+    public int AnimState { get => animState;}
 
     private void Awake()
     {
@@ -22,6 +28,8 @@ public class PlayerScript : MonoBehaviour
     {
         input.Player.Move.performed += ctxMove => MovePlayer(ctxMove);
         input.Player.Move.canceled += ctxNotMove => NotMove();
+        animator = GetComponent<Animator>();
+        playerAnimator = new PlayerAnimator(this,animator);
     }
 
     /// <summary>
@@ -30,6 +38,7 @@ public class PlayerScript : MonoBehaviour
     private void NotMove()
     {
         movement = Vector2.zero;
+        animState = 0;
     }
 
     /// <summary>
@@ -39,6 +48,7 @@ public class PlayerScript : MonoBehaviour
     private void MovePlayer(UnityEngine.InputSystem.InputAction.CallbackContext ctxMove)
     {
         movement = ctxMove.ReadValue<Vector2>();
+        animState = 1;
         MovementToAxis();
     }
 
@@ -88,6 +98,11 @@ public class PlayerScript : MonoBehaviour
     private void FixedUpdate()
     {
         rgb2.MovePosition(rgb2.position + movement * speed);
+    }
+
+    private void Update()
+    {
+        playerAnimator.Animate();
     }
 
 }
