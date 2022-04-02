@@ -9,7 +9,7 @@ public class PruebaPlayer : MonoBehaviour
     [SerializeField] private float speed = 0.1f;
     private Vector2 posticion;
     private InputSystem input;
-    private Vector2 movePosition;
+    private Vector2 movePosition = Vector2.zero;
 
     private void Awake()
     {
