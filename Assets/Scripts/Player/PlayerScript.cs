@@ -97,7 +97,7 @@ public class PlayerScript : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
-        rgb2.MovePosition(rgb2.position + movement * speed);
+        rgb2.MovePosition(rgb2.position + movement * speed * Time.fixedDeltaTime);
     }
 
     private void Update()
