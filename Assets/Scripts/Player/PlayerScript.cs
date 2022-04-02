@@ -8,14 +8,15 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Rigidbody2D rgb2;
     [SerializeField] private float speed = 0.1f;
     private InputSystem input;
-    private Vector2 movement;
+    private Vector2 movement, movementAxis;
+    private int direction;
 
     private void Awake()
     {
         input = new InputSystem();
         input.Enable();
     }
-        
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,7 @@ public class PlayerScript : MonoBehaviour
     /// </summary>
     private void NotMove()
     {
-        movement = Vector2.zero;
+        movementAxis = Vector2.zero;
     }
 
     /// <summary>
@@ -38,6 +39,47 @@ public class PlayerScript : MonoBehaviour
     private void MovePlayer(UnityEngine.InputSystem.InputAction.CallbackContext ctxMove)
     {
         movement = ctxMove.ReadValue<Vector2>();
+        MovementToAxis();
+    }
+
+    private void MovementToAxis()
+    {
+        var absX = Mathf.Abs(movement.x);
+        var absY = Mathf.Abs(movement.y);
+
+        direction = 0;
+
+        if (absY == absX)
+        {
+            return;
+        }
+
+        else if (absY > absX)
+        { direction++; }
+        if (direction == 0 && movement.x < 0)
+        {
+            direction += 2;
+        }
+        if (direction == 1 && movement.y < 0)
+        {
+            direction += 2;
+        }
+
+        switch (direction)
+        {
+            case 0:
+                movementAxis = Vector2.right;
+                return;
+            case 1:
+                movementAxis = Vector2.up;
+                return;
+            case 2:
+                movementAxis = Vector2.left;
+                return;
+            case 3:
+                movementAxis = Vector2.down;
+                return;
+        }
     }
 
     /// <summary>
@@ -45,7 +87,7 @@ public class PlayerScript : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
-        rgb2.MovePosition(rgb2.position + movement * speed);
+        rgb2.MovePosition(rgb2.position + movementAxis * speed);
     }
 
 }
