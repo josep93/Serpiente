@@ -9,7 +9,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float speed = 0.1f;
     private InputSystem input;
     private Vector2 movement, movementAxis;
-    private int direction;
+    [SerializeField] private int direction;
 
     private void Awake()
     {
@@ -29,7 +29,7 @@ public class PlayerScript : MonoBehaviour
     /// </summary>
     private void NotMove()
     {
-        movementAxis = Vector2.zero;
+        movement = Vector2.zero;
     }
 
     /// <summary>
@@ -47,14 +47,12 @@ public class PlayerScript : MonoBehaviour
         var absX = Mathf.Abs(movement.x);
         var absY = Mathf.Abs(movement.y);
 
-        direction = 0;
-
         if (absY == absX)
         {
             return;
         }
-
-        else if (absY > absX)
+        direction = 0;
+        if (absY > absX)
         { direction++; }
         if (direction == 0 && movement.x < 0)
         {
@@ -65,6 +63,7 @@ public class PlayerScript : MonoBehaviour
             direction += 2;
         }
 
+        /*
         switch (direction)
         {
             case 0:
@@ -80,6 +79,7 @@ public class PlayerScript : MonoBehaviour
                 movementAxis = Vector2.down;
                 return;
         }
+        */
     }
 
     /// <summary>
@@ -87,7 +87,7 @@ public class PlayerScript : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
-        rgb2.MovePosition(rgb2.position + movementAxis * speed);
+        rgb2.MovePosition(rgb2.position + movement * speed);
     }
 
 }
