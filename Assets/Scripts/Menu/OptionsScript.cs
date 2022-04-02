@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class OptionsScript : MonoBehaviour
 {
     [SerializeField] private GameObject drpResolution;
+    [SerializeField] private Toggle tglFullScreen;
     private TMP_Dropdown drpDown;
     private bool isFull = false;
     private int resolution;
@@ -19,6 +20,12 @@ public class OptionsScript : MonoBehaviour
     private void Start()
     {
         fillDropDown();
+        LoadSetting();
+    }
+
+    private void OnDisable()
+    {
+        SaveSettings();
     }
 
     /// <summary>
@@ -29,7 +36,7 @@ public class OptionsScript : MonoBehaviour
     {
         Screen.fullScreen = fullScreen;
         isFull = fullScreen;
-        drpResolution.SetActive(!fullScreen);
+        drpDown.interactable = !fullScreen;
     }
 
     /// <summary>
@@ -46,6 +53,7 @@ public class OptionsScript : MonoBehaviour
     private void SaveSettings()
     {
         PlayerPrefs.SetInt("fullScreen", isFull ? 1 : 0);
+        PlayerPrefs.SetInt("resolution", drpDown.value);
         PlayerPrefs.Save();
     }
 
@@ -54,8 +62,11 @@ public class OptionsScript : MonoBehaviour
     /// </summary>
     private void LoadSetting()
     {
-        Screen.fullScreen = PlayerPrefs.GetInt("fullScreen", 1) == 1 ? true : false;
+        bool activeFullScreen = PlayerPrefs.GetInt("fullScreen", 1) == 1 ? true : false;
+        Screen.fullScreen = activeFullScreen;
+        tglFullScreen.isOn = activeFullScreen;
         resolution = PlayerPrefs.GetInt("resolution", 0);
+        drpDown.value = resolution;
         ChangeResolution(resolution);
     }
 
