@@ -10,6 +10,7 @@ public class PlayerScript : MonoBehaviour
     private InputSystem input;
     private Vector2 movement, movementAxis;
     [SerializeField] private int direction;
+    [SerializeField] private int helmet;
     private Animator animator;
     private SpriteRenderer sprite;
     private PlayerAnimator playerAnimator;
@@ -21,6 +22,7 @@ public class PlayerScript : MonoBehaviour
     public int AnimState { get => animState;}
     public SpriteRenderer Sprite { get => sprite;}
     public Animator Animator { get => animator;}
+    public int Helmet { get => helmet;}
 
     private void Awake()
     {
@@ -34,6 +36,7 @@ public class PlayerScript : MonoBehaviour
     {
         input.Player.Move.performed += ctxMove => MovePlayer(ctxMove);
         input.Player.Move.canceled += ctxNotMove => NotMove();
+        input.Player.Throw.performed += ctxThrow => Throw();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         playerAnimator = new PlayerAnimator(this);
@@ -46,6 +49,11 @@ public class PlayerScript : MonoBehaviour
     {
         movement = Vector2.zero;
         animState = 0;
+    }
+
+    private void Throw()
+    {
+        playerAnimator.ThrowUsed();
     }
 
     /// <summary>

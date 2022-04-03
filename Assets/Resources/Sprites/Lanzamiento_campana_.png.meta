@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 33abd90ba23b97547a6f679f9ce97484
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3810346327910462880
+    second: Lanzamiento_campana__0
+  - first:
+      213: 1287473253256962083
+    second: Lanzamiento_campana__1
+  - first:
+      213: -4312282190079768824
+    second: Lanzamiento_campana__2
+  - first:
+      213: -1305480437020347429
+    second: Lanzamiento_campana__3
+  - first:
+      213: 1286649476703273422
+    second: Lanzamiento_campana__5
+  - first:
+      213: -7092373077448036881
+    second: Lanzamiento_campana__22
+  - first:
+      213: 4999465366191344248
+    second: Lanzamiento_campana__23
+  - first:
+      213: 5145345222060735135
+    second: Lanzamiento_campana__24
+  - first:
+      213: 6226559773070122420
+    second: Lanzamiento_campana__25
+  - first:
+      213: -7759788345106415484
+    second: Lanzamiento_campana__26
+  - first:
+      213: -134126317267196946
+    second: Lanzamiento_campana__27
+  - first:
+      213: 2876688921599583984
+    second: Lanzamiento_campana__28
+  - first:
+      213: 7096487460543643068
+    second: Lanzamiento_campana__29
+  - first:
+      213: -3268565673420669592
+    second: Lanzamiento_campana__31
+  - first:
+      213: -2042838559839421765
+    second: Lanzamiento_campana__32
+  - first:
+      213: -992853210971727812
+    second: Lanzamiento_campana__33
+  - first:
+      213: -5340932409405944722
+    second: Lanzamiento_campana__34
+  - first:
+      213: 5773392305189355587
+    second: Lanzamiento_campana__35
+  - first:
+      213: -5949411296573558849
+    second: Lanzamiento_campana__36
+  - first:
+      213: 6700758244020889497
+    second: Lanzamiento_campana__37
+  - first:
+      213: 6473696635613604402
+    second: Lanzamiento_campana__39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lanzamiento_campana__0
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2867
+        width: 231
+        height: 322
+      alignment: 9
+      pivot: {x: 0.46438983, y: 0.6405044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a531521cc111e430800000000000000
+      internalID: 3810346327910462880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__2
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 2867
+        width: 230
+        height: 328
+      alignment: 9
+      pivot: {x: 0.48211777, y: 0.63793427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8074d011232b724c0800000000000000
+      internalID: -4312282190079768824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__3
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 2868
+        width: 231
+        height: 324
+      alignment: 9
+      pivot: {x: 0.46438983, y: 0.6523317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd33e22957002ede0800000000000000
+      internalID: -1305480437020347429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__23
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 2247
+        width: 230
+        height: 407
+      alignment: 9
+      pivot: {x: 0.49999973, y: 0.56063324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a04b2234ba16540800000000000000
+      internalID: 4999465366191344248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__25
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 2255
+        width: 229
+        height: 312
+      alignment: 9
+      pivot: {x: 0.4820394, y: 0.6186429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdd496bf1f296650800000000000000
+      internalID: 6226559773070122420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__27
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2250
+        width: 230
+        height: 332
+      alignment: 9
+      pivot: {x: 0.48211777, y: 0.6610497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3e14833dc732ef0800000000000000
+      internalID: -134126317267196946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1796
+        width: 236
+        height: 330
+      alignment: 9
+      pivot: {x: 0.5174276, y: 0.649562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ae35355d0ce720800000000000000
+      internalID: 2876688921599583984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__29
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1824
+        width: 343
+        height: 315
+      alignment: 9
+      pivot: {x: 0.63190216, y: 0.617513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdb7be1fb9cb7260800000000000000
+      internalID: 7096487460543643068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__31
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1810
+        width: 236
+        height: 339
+      alignment: 9
+      pivot: {x: 0.4999995, y: 0.63345885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86db9be66d8b3a2d0800000000000000
+      internalID: -3268565673420669592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1325
+        width: 237
+        height: 329
+      alignment: 9
+      pivot: {x: 0.5173543, y: 0.6250141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cccf7654231e5b0800000000000000
+      internalID: -5340932409405944722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__35
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1320
+        width: 348
+        height: 327
+      alignment: 9
+      pivot: {x: 0.3463554, y: 0.62577873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34009cb76b53f1050800000000000000
+      internalID: 5773392305189355587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_campana__36
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1289
+        width: 236
+        height: 344
+      alignment: 9
+      pivot: {x: 0.53485626, y: 0.6434752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf690572f17f6da0800000000000000
+      internalID: -5949411296573558849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

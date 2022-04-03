@@ -6,7 +6,7 @@
             "id": "17a9ff49-67d6-4e0e-b2ef-951070c4b9f8",
             "actions": [
                 {
-                    "name": "Accion",
+                    "name": "Throw",
                     "type": "Button",
                     "id": "6a44c38a-22e5-45dc-a0f3-3d2ce2b5dccb",
                     "expectedControlType": "Button",
@@ -32,7 +32,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accion",
+                    "action": "Throw",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

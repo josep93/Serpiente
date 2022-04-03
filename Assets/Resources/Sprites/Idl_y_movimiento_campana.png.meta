@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 16a4419c533971d4a892b1fd28276bca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9097847157724088038
+    second: Idl_y_movimiento_campana_0
+  - first:
+      213: -7448683212019843544
+    second: Idl_y_movimiento_campana_1
+  - first:
+      213: -8675749720548514817
+    second: Idl_y_movimiento_campana_12
+  - first:
+      213: 6628428294276258962
+    second: Idl_y_movimiento_campana_14
+  - first:
+      213: -8193626101525359902
+    second: Idl_y_movimiento_campana_22
+  - first:
+      213: -7830926267979674197
+    second: Idl_y_movimiento_campana_24
+  - first:
+      213: -3674360314663181257
+    second: Idl_y_movimiento_campana_26
+  - first:
+      213: 2849427550643977784
+    second: Idl_y_movimiento_campana_27
+  - first:
+      213: 641298933135636312
+    second: Idl_y_movimiento_campana_37
+  - first:
+      213: -2518224804049083121
+    second: Idl_y_movimiento_campana_38
+  - first:
+      213: -5605419563674390133
+    second: Idl_y_movimiento_campana_39
+  - first:
+      213: -2876284695142551089
+    second: Idl_y_movimiento_campana_40
+  - first:
+      213: 6356926887614721113
+    second: Idl_y_movimiento_campana_41
+  - first:
+      213: -53703570196468678
+    second: Idl_y_movimiento_campana_42
+  - first:
+      213: 3622088078038957499
+    second: Idl_y_movimiento_campana_43
+  - first:
+      213: 4989400797329462625
+    second: Idl_y_movimiento_campana_44
+  - first:
+      213: -1922543860724488415
+    second: Idl_y_movimiento_campana_46
+  - first:
+      213: 8329083389081380288
+    second: Idl_y_movimiento_campana_47
+  - first:
+      213: -4160484013222311163
+    second: Idl_y_movimiento_campana_48
+  - first:
+      213: 522767223235415721
+    second: Idl_y_movimiento_campana_50
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2945
+        width: 232
+        height: 348
+      alignment: 9
+      pivot: {x: 0.49179786, y: 0.6148317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e601f899cb024e70800000000000000
+      internalID: 9097847157724088038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2956
+        width: 236
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5080634, y: 0.6424341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e342f5516f0a890800000000000000
+      internalID: -7448683212019843544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2563
+        width: 230
+        height: 326
+      alignment: 9
+      pivot: {x: 0.49172655, y: 0.62841797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3e282689b899780800000000000000
+      internalID: -8675749720548514817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2565
+        width: 237
+        height: 334
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.6310399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c1c7b2a68ecfb50800000000000000
+      internalID: 6628428294276258962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1779
+        width: 231
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5082379, y: 0.56323904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2563ce8746a4e80800000000000000
+      internalID: -8193626101525359902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_24
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1777
+        width: 230
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55615157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badcbce9c06f25390800000000000000
+      internalID: -7830926267979674197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_26
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1764
+        width: 240
+        height: 342
+      alignment: 9
+      pivot: {x: 0.49207154, y: 0.6001537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73465bbe2cc020dc0800000000000000
+      internalID: -3674360314663181257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_27
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1775
+        width: 231
+        height: 319
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.5775483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e7859a2433b8720800000000000000
+      internalID: 2849427550643977784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1378
+        width: 231
+        height: 331
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.5919842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f2606bf956e800800000000000000
+      internalID: 641298933135636312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_38
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1385
+        width: 229
+        height: 326
+      alignment: 9
+      pivot: {x: 0.50830984, y: 0.57004625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05a31202e77d0dd0800000000000000
+      internalID: -2518224804049083121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_39
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1369
+        width: 229
+        height: 348
+      alignment: 9
+      pivot: {x: 0.48338085, y: 0.6257678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b92a0b9c8532b0800000000000000
+      internalID: -5605419563674390133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_40
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1380
+        width: 256
+        height: 325
+      alignment: 9
+      pivot: {x: 0.44796705, y: 0.6288131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1b2291f426518d0800000000000000
+      internalID: -2876284695142551089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_41
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 981
+        width: 236
+        height: 322
+      alignment: 9
+      pivot: {x: 0.52418983, y: 0.6181936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ca767e257583850800000000000000
+      internalID: 6356926887614721113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_42
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 981
+        width: 236
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5080634, y: 0.61049217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ce44f23e4314ff0800000000000000
+      internalID: -53703570196468678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_43
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 978
+        width: 236
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5, y: 0.600222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd70b49aed344230800000000000000
+      internalID: 3622088078038957499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_44
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 974
+        width: 237
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5096956, y: 0.6300724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1659fd61799ed3540800000000000000
+      internalID: 4989400797329462625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 590
+        width: 236
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5097371, y: 0.62496346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127a8647b80c155e0800000000000000
+      internalID: -1922543860724488415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_47
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 592
+        width: 242
+        height: 317
+      alignment: 9
+      pivot: {x: 0.5094955, y: 0.6159845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c56dc68639d69370800000000000000
+      internalID: 8329083389081380288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_48
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 595
+        width: 235
+        height: 327
+      alignment: 9
+      pivot: {x: 0.4804428, y: 0.62649226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b413a45ddf246c0800000000000000
+      internalID: -4160484013222311163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_campana_50
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 592
+        width: 239
+        height: 324
+      alignment: 9
+      pivot: {x: 0.510566, y: 0.6247018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae0a21150e314700800000000000000
+      internalID: 522767223235415721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
