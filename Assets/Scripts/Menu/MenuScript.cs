@@ -9,7 +9,7 @@ public class MenuScript : MonoBehaviour
     /// </summary>
     public void Play()
     {
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene("Playa");
     }
 
     /// <summary>
