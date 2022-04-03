@@ -5,19 +5,20 @@ using UnityEngine;
 public class ProyectableScript : MonoBehaviour
 {
 
-    [SerializeField] private GameObject proyectile,proyectable;
+    [SerializeField] private GameObject proyectile, proyectable;
     [SerializeField] private SpriteRenderer sprite;
+    [SerializeField] private bool pushable = false;
 
     bool initiated = false;
 
     private Collider2D objectCollider;
     private Animator animator;
 
-    private string[,] idleAnimations = { { "Clam", "Clam", "Clam", "Clam" }, 
-        { "Rock_W", "Rock_S", "Rock_E", "Rock_N" }, 
+    private string[,] idleAnimations = { { "Clam", "Clam", "Clam", "Clam" },
+        { "Rock_W", "Rock_S", "Rock_E", "Rock_N" },
         { "Bell_W", "Bell_S", "Bell_E", "Bell_N" } };
     private string[,] deathAnimations = { { "Clam_Death", "Clam_Death", "Clam_Death", "Clam_Death" },
-        { "Rock_Death_W", "Rock_Death_S", "Rock_Death_E", "Rock_Death_N" }, 
+        { "Rock_Death_W", "Rock_Death_S", "Rock_Death_E", "Rock_Death_N" },
         { "Bell_Death_W", "Bell_Death_S", "Bell_Death_E", "Bell_Death_N" } };
     private string currentAnimation;
 
@@ -84,7 +85,7 @@ public class ProyectableScript : MonoBehaviour
         type = PlayerScript.current.Helmet;
         PlayerScript.current.Helmet = oldType;
         PlayerScript.current.Raise();
-        Play(deathAnimations[type,direction]);
+        Play(deathAnimations[type, direction]);
     }
 
     private void SelectSprite()
@@ -92,13 +93,37 @@ public class ProyectableScript : MonoBehaviour
         var selection = type;
         if (type == 2)
             selection += direction;
-        Play(idleAnimations[type,direction]);
+        Play(idleAnimations[type, direction]);
     }
 
     public void Collide(GameObject gameobject, int direction)
     {
         if (type == 2 && this.direction != direction)
         {
+            if (pushable)
+            {
+                Vector3 movVector = Vector3.zero;
+                switch (direction)
+                {
+                    case 0:
+                        movVector = Vector2.left;
+                        break;
+
+                    case 1:
+                        movVector = Vector2.down;
+                        break;
+
+                    case 2:
+                        movVector = Vector2.right;
+                        break;
+
+                    case 3:
+                        movVector = Vector2.up;
+                        break;
+                }
+                movVector *= 0.25f;
+                transform.position -= movVector;
+            }
             Bounce(gameobject, direction);
         }
         else
@@ -114,7 +139,7 @@ public class ProyectableScript : MonoBehaviour
         Destroy(gameobject);
         var newProy = Instantiate(proyectable, PlayerScript.current.transform.position, PlayerScript.current.transform.rotation);
         var newProyScrip = newProy.GetComponent<ProyectableScript>();
-        newProyScrip.Initiate(type,direction);
+        newProyScrip.Initiate(type, direction);
         PlayerScript.current.transform.position = transform.position;
         Destroy(gameObject);
     }
