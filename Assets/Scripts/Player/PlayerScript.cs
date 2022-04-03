@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rgb2;
-    [SerializeField] private float speed = 0.1f;
+    [SerializeField] private float speed = 2.5f;
     private InputSystem input;
     private Vector2 movement, movementAxis;
     [SerializeField] private int direction;
@@ -36,10 +36,27 @@ public class PlayerScript : MonoBehaviour
     {
         input.Player.Move.performed += ctxMove => MovePlayer(ctxMove);
         input.Player.Move.canceled += ctxNotMove => NotMove();
+        input.Player.Run.performed += ctxRun => Run(true);
+        input.Player.Run.canceled += ctxWalk => Run(false);
         input.Player.Throw.performed += ctxThrow => Throw();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         playerAnimator = new PlayerAnimator(this);
+    }
+
+    /// <summary>
+    /// Incrementamos o decrementamos la velocidad del jugador
+    /// </summary>
+    /// <param name="run"></param>
+    private void Run(bool run)
+    {
+        if (run)
+        {
+            speed = 5f;
+            return;
+        }
+
+        speed = 2.5f;
     }
 
     /// <summary>

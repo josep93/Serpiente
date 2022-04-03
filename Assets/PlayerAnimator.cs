@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAnimator
@@ -29,7 +27,7 @@ public class PlayerAnimator
         if (!animator.GetCurrentAnimatorStateInfo(0).loop && animator.GetCurrentAnimatorStateInfo(0).normalizedTime>1)
         {
             Debug.Log("A");
-          forced = false;
+            forced = false;
         }
         if (!forced)
         {
