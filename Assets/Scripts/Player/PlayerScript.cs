@@ -14,6 +14,8 @@ public class PlayerScript : MonoBehaviour
     private PlayerAnimator playerAnimator;
     private int animState = 0;
 
+    public static PlayerScript current;
+
     public int Direction { get => direction;}
     public int AnimState { get => animState;}
 
@@ -21,6 +23,7 @@ public class PlayerScript : MonoBehaviour
     {
         input = new InputSystem();
         input.Enable();
+        current = this;
     }
 
     // Start is called before the first frame update
