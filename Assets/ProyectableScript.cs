@@ -32,15 +32,15 @@ public class ProyectableScript : MonoBehaviour
     {
         collider.enabled = false;
         StartCoroutine("ColliderReactivation");
-        var proyectileInstance = GameObject.Instantiate(proyectile, gameobject.transform.position, Quaternion.identity);
+        var proyectileInstance = Instantiate(proyectile, gameobject.transform.position, Quaternion.identity);
         var proyectileScript = proyectileInstance.GetComponent<ProyectileScript>();
-
+        var posY = transform.position.y - sprite.size.y / 4;
         int exitDirection = 0;
 
         switch (direction%2)
         {
             case 0:
-                exitDirection = gameobject.transform.position.y < transform.position.y ? 3 : 1;
+                exitDirection = gameobject.transform.position.y < posY ? 3 : 1;
                 break;
             case 1:
                 exitDirection = gameobject.transform.position.x < transform.position.x ? 2 : 0;
