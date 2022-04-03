@@ -11,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     private Vector2 movement, movementAxis;
     [SerializeField] private int direction;
     private Animator animator;
+    private SpriteRenderer sprite;
     private PlayerAnimator playerAnimator;
     private int animState = 0;
 
@@ -18,6 +19,8 @@ public class PlayerScript : MonoBehaviour
 
     public int Direction { get => direction;}
     public int AnimState { get => animState;}
+    public SpriteRenderer Sprite { get => sprite;}
+    public Animator Animator { get => animator;}
 
     private void Awake()
     {
@@ -32,7 +35,8 @@ public class PlayerScript : MonoBehaviour
         input.Player.Move.performed += ctxMove => MovePlayer(ctxMove);
         input.Player.Move.canceled += ctxNotMove => NotMove();
         animator = GetComponent<Animator>();
-        playerAnimator = new PlayerAnimator(this,animator);
+        sprite = GetComponent<SpriteRenderer>();
+        playerAnimator = new PlayerAnimator(this);
     }
 
     /// <summary>
