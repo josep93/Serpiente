@@ -26,13 +26,12 @@ public class PlayerAnimator
     {
         if (!animator.GetCurrentAnimatorStateInfo(0).loop && animator.GetCurrentAnimatorStateInfo(0).normalizedTime>1)
         {
-            Debug.Log("A");
             forced = false;
         }
         if (!forced)
         {
             Play(animation[player.Helmet, player.AnimState, player.Direction]);
-            sprite.sortingOrder = -((int)player.transform.position.y);
+            sprite.sortingOrder = -(int)(player.transform.position.y*10);
         }
     }
 
