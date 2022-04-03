@@ -16,13 +16,21 @@ public class PlayerScript : MonoBehaviour
     private PlayerAnimator playerAnimator;
     private int animState = 0;
 
-    public static PlayerScript current;
+    /// <summary>
+    /// 0 = stunlocked
+    /// 1 = free
+    /// </summary>
+    private int state = 1;
 
-    public int Direction { get => direction;}
-    public int AnimState { get => animState;}
-    public SpriteRenderer Sprite { get => sprite;}
-    public Animator Animator { get => animator;}
-    public int Helmet { get => helmet;}
+    [SerializeField] private GameObject proyectile;
+
+    [SerializeField] public static PlayerScript current;
+
+    public int Direction { get => direction; }
+    public int AnimState { get => animState; }
+    public SpriteRenderer Sprite { get => sprite; }
+    public Animator Animator { get => animator; }
+    public int Helmet { get => helmet; }
 
     private void Awake()
     {
@@ -76,7 +84,29 @@ public class PlayerScript : MonoBehaviour
 
     private void Throw()
     {
-        playerAnimator.ThrowUsed();
+        if (state == 1)
+        {
+            var proyectilePosition = transform.position - new Vector3(0, sprite.size.y / 10, 0);
+            switch (direction)
+            {
+                case 1:
+                    proyectilePosition = transform.position + new Vector3(sprite.size.x / 20, 0);
+                    break;
+                case 3:
+                    proyectilePosition = transform.position + new Vector3(sprite.size.x / 20, 0);
+                    break;
+            }
+            var proyectileInstance = GameObject.Instantiate(proyectile, proyectilePosition, Quaternion.identity);
+            var proyectileScript = proyectileInstance.GetComponent<ProyectileScript>();
+            proyectileScript.Initialize(direction);
+            playerAnimator.ThrowUsed();
+            state = 0;
+        }
+    }
+
+    public void Unlock()
+    {
+        state = 1;
     }
 
     /// <summary>
@@ -85,9 +115,12 @@ public class PlayerScript : MonoBehaviour
     /// <param name="ctxMove"></param>
     private void MovePlayer(UnityEngine.InputSystem.InputAction.CallbackContext ctxMove)
     {
-        movement = ctxMove.ReadValue<Vector2>();
-        animState = 1;
-        MovementToAxis();
+        if (state == 1)
+        {
+            movement = ctxMove.ReadValue<Vector2>();
+            animState = 1;
+            MovementToAxis();
+        }
     }
 
     private void MovementToAxis()
