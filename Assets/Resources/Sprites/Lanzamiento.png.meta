@@ -44,6 +44,18 @@ TextureImporter:
   - first:
       213: 7737214329250072663
     second: Lanzamiento_27
+  - first:
+      213: -3311010664186920375
+    second: Lanzamiento_3
+  - first:
+      213: 3475115849890350986
+    second: Lanzamiento_4
+  - first:
+      213: 5033019400662161152
+    second: Lanzamiento_5
+  - first:
+      213: -2582465573496092866
+    second: Lanzamiento_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -380,6 +392,90 @@ TextureImporter:
       bones: []
       spriteID: 06b3af85f6359c540800000000000000
       internalID: 5028642196635138912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 983
+        width: 70
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942cb99e75dec02d0800000000000000
+      internalID: -3311010664186920375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_4
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 977
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a874b0a14771a3030800000000000000
+      internalID: 3475115849890350986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_5
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 502
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0071e149a70e8d540800000000000000
+      internalID: 5033019400662161152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_6
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 495
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37071f4e3d392cd0800000000000000
+      internalID: -2582465573496092866
       vertices: []
       indices: 
       edges: []
