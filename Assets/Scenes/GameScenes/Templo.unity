@@ -180,6 +180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
+--- !u!95 &106821579 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3151565926750503499, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
+  m_PrefabInstance: {fileID: 106821578}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &150718048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelMenu: {fileID: 524944217}
-  playerAnimator: {fileID: 0}
+  playerAnimator: {fileID: 106821579}
 --- !u!114 &1252740348
 MonoBehaviour:
   m_ObjectHideFlags: 0

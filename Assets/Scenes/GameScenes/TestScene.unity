@@ -892,7 +892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelMenu: {fileID: 1108500170}
-  playerAnimator: {fileID: 0}
+  playerAnimator: {fileID: 1161264464}
 --- !u!114 &952599938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,6 +1052,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1161264464 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3151565926750503499, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
+  m_PrefabInstance: {fileID: 24188950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1635581336
 GameObject:
   m_ObjectHideFlags: 0
