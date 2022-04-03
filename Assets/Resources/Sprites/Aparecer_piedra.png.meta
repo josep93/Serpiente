@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 3d3877291bcc01f46b5cc1cc496ae6f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6007064887695056931
+    second: Aparecer_piedra_0
+  - first:
+      213: -7315803773479728719
+    second: Aparecer_piedra_1
+  - first:
+      213: -4334537001385659969
+    second: Aparecer_piedra_2
+  - first:
+      213: 4689637134691665157
+    second: Aparecer_piedra_3
+  - first:
+      213: -2446045084061952254
+    second: Aparecer_piedra_10
+  - first:
+      213: -3699202305245252386
+    second: Aparecer_piedra_11
+  - first:
+      213: -1217562377982136914
+    second: Aparecer_piedra_12
+  - first:
+      213: 7394468854277135920
+    second: Aparecer_piedra_13
+  - first:
+      213: -8228616289300856643
+    second: Aparecer_piedra_14
+  - first:
+      213: 8100755614087997887
+    second: Aparecer_piedra_15
+  - first:
+      213: 5705555123560459682
+    second: Aparecer_piedra_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aparecer_piedra_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3007
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.4888711, y: 0.3123544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32029c540b16d5350800000000000000
+      internalID: 6007064887695056931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2996
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.30062687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b947439a3b097a90800000000000000
+      internalID: -7315803773479728719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_2
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2971
+        width: 204
+        height: 276
+      alignment: 9
+      pivot: {x: 0.47869754, y: 0.55510944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1fe960091a8d3c0800000000000000
+      internalID: -4334537001385659969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_3
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 2956
+        width: 212
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5037681, y: 0.5938182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50507c29020f41140800000000000000
+      internalID: 4689637134691665157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2594
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.4888711, y: 0.3123544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fa5ef000130af40800000000000000
+      internalID: 5737639801606483854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2185
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.4888711, y: 0.3123544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e6192d438a4b9b0800000000000000
+      internalID: -5065238736060453361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1807
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.4888711, y: 0.3123544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a2c71dc331e5650800000000000000
+      internalID: 6223432887006145084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2597
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.30062687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207633a65191d91b0800000000000000
+      internalID: -5648330777885972734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2193
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.30062687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da115ec1c99c34b0800000000000000
+      internalID: -5459319590610724138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1811
+        width: 235
+        height: 223
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.30062687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738b201c7bae34290800000000000000
+      internalID: -7907218445794363337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_10
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 2569
+        width: 204
+        height: 276
+      alignment: 9
+      pivot: {x: 0.47869754, y: 0.55510944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20795eba4f6ed0ed0800000000000000
+      internalID: -2446045084061952254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_11
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2565
+        width: 212
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5037681, y: 0.5938182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4fc834a1bc9acc0800000000000000
+      internalID: -3699202305245252386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_12
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2350
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadae78d7795a1fe0800000000000000
+      internalID: -1217562377982136914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_13
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2178
+        width: 204
+        height: 276
+      alignment: 9
+      pivot: {x: 0.47869754, y: 0.57872826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ed0e1de3e6e9660800000000000000
+      internalID: 7394468854277135920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_14
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2176
+        width: 212
+        height: 308
+      alignment: 9
+      pivot: {x: 0.47302017, y: 0.6290925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0ca3bf4151ecd80800000000000000
+      internalID: -8228616289300856643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_15
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1791
+        width: 204
+        height: 276
+      alignment: 9
+      pivot: {x: 0.47869754, y: 0.57872826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb967f5bf4aab6070800000000000000
+      internalID: 8100755614087997887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aparecer_piedra_16
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1775
+        width: 212
+        height: 308
+      alignment: 9
+      pivot: {x: 0.47302017, y: 0.6290925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad2b32d7243e2f40800000000000000
+      internalID: 5705555123560459682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

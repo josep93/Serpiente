@@ -38,10 +38,16 @@ public class PlayerScript : MonoBehaviour
         input.Player.Move.canceled += ctxNotMove => NotMove();
         input.Player.Run.performed += ctxRun => Run(true);
         input.Player.Run.canceled += ctxWalk => Run(false);
+        input.Player.Action.performed += ctxAction => ActionPlayer();
         input.Player.Throw.performed += ctxThrow => Throw();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         playerAnimator = new PlayerAnimator(this);
+    }
+
+    private void ActionPlayer()
+    {
+        
     }
 
     /// <summary>
