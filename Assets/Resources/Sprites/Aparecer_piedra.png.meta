@@ -127,12 +127,12 @@ TextureImporter:
       name: Aparecer_piedra_0
       rect:
         serializedVersion: 2
-        x: 131
-        y: 3007
+        x: 127
+        y: 3023
         width: 235
-        height: 223
+        height: 444
       alignment: 9
-      pivot: {x: 0.4888711, y: 0.3123544}
+      pivot: {x: 0.4974847, y: 0.47008327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,12 +148,12 @@ TextureImporter:
       name: Aparecer_piedra_1
       rect:
         serializedVersion: 2
-        x: 515
-        y: 2996
+        x: 513
+        y: 3002
         width: 235
-        height: 223
+        height: 198
       alignment: 9
-      pivot: {x: 0.50000024, y: 0.30062687}
+      pivot: {x: 0.5172275, y: 0.43206787}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,12 +211,12 @@ TextureImporter:
       name: Aparecer_piedra_4
       rect:
         serializedVersion: 2
-        x: 133
-        y: 2594
+        x: 128
+        y: 2606
         width: 235
-        height: 223
+        height: 394
       alignment: 9
-      pivot: {x: 0.4888711, y: 0.3123544}
+      pivot: {x: 0.5060983, y: 0.5160879}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,9 +235,9 @@ TextureImporter:
         x: 133
         y: 2185
         width: 235
-        height: 223
+        height: 367
       alignment: 9
-      pivot: {x: 0.4888711, y: 0.3123544}
+      pivot: {x: 0.4888709, y: 0.46001548}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,9 +256,9 @@ TextureImporter:
         x: 136
         y: 1807
         width: 235
-        height: 223
+        height: 360
       alignment: 9
-      pivot: {x: 0.4888711, y: 0.3123544}
+      pivot: {x: 0.5098347, y: 0.49025607}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,12 +274,12 @@ TextureImporter:
       name: Aparecer_piedra_7
       rect:
         serializedVersion: 2
-        x: 517
-        y: 2597
+        x: 526
+        y: 2600
         width: 235
-        height: 223
+        height: 225
       alignment: 9
-      pivot: {x: 0.50000024, y: 0.30062687}
+      pivot: {x: 0.49138677, y: 0.5447419}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -384,7 +384,7 @@ TextureImporter:
         width: 11
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

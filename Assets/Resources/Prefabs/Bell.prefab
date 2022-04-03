@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8554419251042352482}
   - component: {fileID: 8554419251042352485}
   - component: {fileID: 8554419251042352481}
+  - component: {fileID: 5889637574730130929}
   m_Layer: 0
   m_Name: Bell
   m_TagString: Proyectable
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 155978881
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9006458600657366850, guid: 1f0ffd4627c82024091b94517d3999ab, type: 3}
+  m_Sprite: {fileID: -162908078010794006, guid: 1f0ffd4627c82024091b94517d3999ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,7 +120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   proyectile: {fileID: 4585800579456548520, guid: c65cc85e8b02e234796d1b8e2b56a143, type: 3}
+  proyectable: {fileID: 8554419251042352480}
   sprite: {fileID: 0}
+  type: 2
+  direction: 0
 --- !u!70 &8554419251042352481
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -133,6 +137,25 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.022463089, y: 0.02766186}
-  m_Size: {x: 2.1056683, y: 0.9675381}
+  m_Offset: {x: 0.07932173, y: -1.2346034}
+  m_Size: {x: 2.4458773, y: 1.0357751}
   m_Direction: 1
+--- !u!95 &5889637574730130929
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554419251042352480}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c51917a279c39645b96ad5428a6953b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

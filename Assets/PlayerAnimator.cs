@@ -8,10 +8,16 @@ public class PlayerAnimator
     private bool forced;
     private string[,,] animation = { { { "Idle_E", "Idle_N", "Idle_W", "Idle_S" },
             { "Move_E", "Move_N", "Move_W", "Move_S" },
-        { "Throw_E", "Throw_N", "Throw_W", "Throw_S" }},
+        { "Throw_E", "Throw_N", "Throw_W", "Throw_S" },
+        { "Raise", "Raise", "Raise", "Raise" }},
         {{"Bell_Idle_E", "Bell_Idle_N", "Bell_Idle_W", "Bell_Idle_S" },
             { "Bell_Move_E", "Bell_Move_N", "Bell_Move_W", "Bell_Move_S" },
-        {"Bell_Throw_E", "Bell_Throw_N", "Bell_Throw_W", "Bell_Throw_S" } } };
+        {"Bell_Throw_E", "Bell_Throw_N", "Bell_Throw_W", "Bell_Throw_S" } ,
+        { "Raise", "Raise", "Raise", "Raise" }},
+        {{"Bell_Idle_E", "Bell_Idle_N", "Bell_Idle_W", "Bell_Idle_S" },
+            { "Bell_Move_E", "Bell_Move_N", "Bell_Move_W", "Bell_Move_S" },
+        {"Bell_Throw_E", "Bell_Throw_N", "Bell_Throw_W", "Bell_Throw_S" },
+        { "Bell_Raise_E", "Bell_Raise_N", "Bell_Raise_W", "Bell_Raise_S" } } };
     private string currentAnimation;
 
 
@@ -38,6 +44,11 @@ public class PlayerAnimator
     public void ThrowUsed()
     {
         PlayToTheEnd(animation[player.Helmet, 2, player.Direction]);
+    }
+
+    public void Raise()
+    {
+        PlayToTheEnd(animation[player.Helmet, 3, player.Direction]);
     }
 
     private void Play(string animation)

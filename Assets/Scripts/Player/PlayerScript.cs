@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour
     private InputSystem input;
     private Vector2 movement, movementAxis;
     [SerializeField] private int direction;
-    [SerializeField] private int helmet;
+    [SerializeField] private int helmet = 0;
     private Animator animator;
     private SpriteRenderer sprite;
     private PlayerAnimator playerAnimator;
@@ -26,11 +26,11 @@ public class PlayerScript : MonoBehaviour
 
     [SerializeField] public static PlayerScript current;
 
-    public int Direction { get => direction; }
+    public int Direction { get => direction; set => direction = value; }
     public int AnimState { get => animState; }
     public SpriteRenderer Sprite { get => sprite; }
     public Animator Animator { get => animator; }
-    public int Helmet { get => helmet; }
+    public int Helmet { get => helmet; set => helmet = value; }
 
     private void Awake()
     {
@@ -123,6 +123,11 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    public void Die()
+    {
+        
+    }
+
     private void MovementToAxis()
     {
         var absX = Mathf.Abs(movement.x);
@@ -174,6 +179,11 @@ public class PlayerScript : MonoBehaviour
     private void Update()
     {
         playerAnimator.Animate();
+    }
+
+    public void Raise()
+    {
+        playerAnimator.Raise();
     }
 
 }
