@@ -59,6 +59,14 @@ public class PlayerScript : MonoBehaviour
         sound.pitch = 1.7f;
     }
 
+    private void OnDestroy()
+    {
+        input.Player.Run.Dispose();
+        input.Player.Run.Dispose();
+        input.Player.Action.Dispose();
+        input.Player.Throw.Dispose();
+    }
+
     private void ActionPlayer()
     {
         actionCollider.enabled = true;

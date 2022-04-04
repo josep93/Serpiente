@@ -19,6 +19,11 @@ public class PauseScript : MonoBehaviour
         input.Player.Pause.performed += ctxPause => Pause();
     }
 
+    private void OnDestroy()
+    {
+        input.Player.Pause.Dispose(); ;
+    }
+
     private void Pause()
     {
         Time.timeScale = 0;

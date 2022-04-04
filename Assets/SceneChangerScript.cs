@@ -17,6 +17,7 @@ public class SceneChangerScript : MonoBehaviour
     {
         if (collision.tag =="Player")
         StartCoroutine("CutOut");
+        RoomChangeScript.state = 0;
     }
 
     IEnumerator CutOut()
