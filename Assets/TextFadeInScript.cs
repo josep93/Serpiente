@@ -19,6 +19,7 @@ public class TextFadeInScript : MonoBehaviour
         StartCoroutine(FadeInScene(fadeIn));
         yield return new WaitForSeconds(5f);
         snakeAnimator.enabled = true;
+        StartCoroutine("sandSound");
         StartCoroutine(FadeInInitial(texts[0]));
         yield return new WaitForSeconds(5f);
         StartCoroutine(FadeInInitial(texts[1]));
@@ -30,9 +31,34 @@ public class TextFadeInScript : MonoBehaviour
         yield return new WaitForSeconds(5f);
         StartCoroutine(FadeInInitial(texts[4]));
         yield return new WaitForSeconds(2f);
+        createSoundFont("ReapariciónRoca");
         VesselScript.current.animator.enabled = true;
         yield return new WaitForSeconds(5f);
         SceneManager.LoadScene("Menu");
+    }
+
+    
+    IEnumerator sandSound()
+    {
+        while (true)
+        {
+            GameObject gameSound = Instantiate(new GameObject());
+            AudioSource sound = gameSound.AddComponent<AudioSource>();
+            sound.clip = (AudioClip)Resources.Load("Sounds/Effects/SerpienteArena");
+            sound.volume = 0.05f;
+            sound.pitch = 0.5f;
+            sound.Play();
+            yield return new WaitForSeconds(1);
+        }
+    }
+    
+    private void createSoundFont(string sonido)
+    {
+        GameObject gameSound = Instantiate(new GameObject());
+        AudioSource sound = gameSound.AddComponent<AudioSource>();
+        sound.clip = (AudioClip)Resources.Load("Sounds/Effects/" + sonido);
+        sound.volume = 0.25f;
+        sound.Play();
     }
 
     private IEnumerator FadeInInitial(TextMeshProUGUI text)

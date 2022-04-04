@@ -22,10 +22,13 @@ public class AltarScript : MonoBehaviour, Activable
 
     IEnumerator CommenceTheRumbling()
     {
+        createSoundFont();
         yield return new WaitForSeconds(0.3f);
         StartCoroutine(ShakeScript.current.CameraShake(5f, 0.1f));
+        createSoundFont();
         yield return new WaitWhile(() => ShakeScript.current.rumbling);
         StartCoroutine(ShakeScript.current.CameraShake(5f, 0.3f));
+        createSoundFont();
         yield return new WaitWhile(() => ShakeScript.current.rumbling);
         StartCoroutine(ShakeScript.current.CameraShake(10f, 1f));
         StartCoroutine(FadeOutInitial(fadeOutSprite));
@@ -33,6 +36,16 @@ public class AltarScript : MonoBehaviour, Activable
         asyncLoad.allowSceneActivation = false;
         yield return new WaitForSeconds(4f);
         asyncLoad.allowSceneActivation = true;
+        yield return new WaitForSeconds(6f);
+        Destroy(gameObject);
+    }
+
+    private void createSoundFont()
+    {
+        GameObject gameSound = Instantiate(new GameObject());
+        AudioSource sound = gameSound.AddComponent<AudioSource>();
+        sound.clip = (AudioClip) Resources.Load("Sounds/Effects/SonidoRocas3");
+        sound.Play();
     }
 
     private IEnumerator FadeOutInitial(SpriteRenderer fadeOutSprite)

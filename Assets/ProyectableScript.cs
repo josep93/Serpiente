@@ -8,6 +8,10 @@ public class ProyectableScript : MonoBehaviour
     [SerializeField] private GameObject proyectile, proyectable;
     [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private bool pushable = false;
+    [SerializeField] private AudioSource sound;
+    [SerializeField] private AudioClip sonidoRebote;
+    [SerializeField] private AudioClip sonidoRoca;
+    [SerializeField] private AudioClip sonidoCampana;
 
     bool initiated = false;
 
@@ -40,6 +44,17 @@ public class ProyectableScript : MonoBehaviour
 
     public void Initiate(int oldType, int oldDirection)
     {
+        if (type == 2)
+        {
+            sound.clip = sonidoCampana;
+            sound.Play();
+        }
+        else
+        {
+            sound.clip = sonidoRoca;
+            sound.Play();
+        }
+        
         objectCollider = GetComponent<Collider2D>();
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -98,6 +113,8 @@ public class ProyectableScript : MonoBehaviour
 
     public void Collide(GameObject gameobject, int direction)
     {
+        sound.clip = sonidoRebote;
+        sound.Play();
         if (type == 2 && this.direction != direction)
         {
             if (pushable)

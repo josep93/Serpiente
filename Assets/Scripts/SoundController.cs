@@ -6,6 +6,7 @@ public class SoundController : MonoBehaviour
     [SerializeField] private AudioClip selectButton;
     [SerializeField] private AudioClip longSelectButton;
     [SerializeField] private AudioClip windBeach;
+    [SerializeField] private AudioClip templeWind;
     private static SoundController current;
     private AudioSource sound;
     private Scene scene;
@@ -49,11 +50,19 @@ public class SoundController : MonoBehaviour
 
         sound.pitch = 1;
 
-        if (scene.name == "Playa")
+        if (scene.name == "Playa" || scene.name == "Playa2")
         {
             sound.clip = windBeach;
             sound.loop = true;
             sound.Play();
+            return;
+        }
+
+        if (scene.name == "Templo")
+        {
+            sound.clip = templeWind;
+            sound.Play();
+            return;
         }
 
     }
