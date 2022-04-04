@@ -2392,7 +2392,8 @@ EdgeCollider2D:
   m_Points:
   - {x: 4.027033, y: -2.686777}
   - {x: 4.1570034, y: -2.206665}
-  - {x: 4.756645, y: -2.2553444}
+  - {x: 4.1351147, y: -1.807415}
+  - {x: 4.695719, y: -1.8288555}
   - {x: 5.007778, y: -2.9407368}
   - {x: 4.474842, y: -3.1069794}
   - {x: 4.272625, y: -3.1546192}
@@ -5276,7 +5277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2044230778
 Transform:
   m_ObjectHideFlags: 0
