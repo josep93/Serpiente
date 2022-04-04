@@ -44,6 +44,7 @@ public class SoundController : MonoBehaviour
         Debug.Log("Event");
         if (scene.name == "Menu")
         {
+            sound.clip = selectButton;
             sound.pitch = 2;
             return;
         }
