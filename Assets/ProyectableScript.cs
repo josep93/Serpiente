@@ -141,6 +141,10 @@ public class ProyectableScript : MonoBehaviour
         var newProyScrip = newProy.GetComponent<ProyectableScript>();
         newProyScrip.Initiate(type, direction);
         PlayerScript.current.transform.position = transform.position;
+        if (RoomChangeScript.state == 4)
+        {
+            CameraPositionScript.current.currentObjectiveGO = PlayerScript.current.gameObject;
+        }
         Destroy(gameObject);
     }
 
@@ -150,6 +154,9 @@ public class ProyectableScript : MonoBehaviour
         StartCoroutine("ColliderReactivation");
         var proyectileInstance = Instantiate(proyectile, gameobject.transform.position, Quaternion.identity);
         var proyectileScript = proyectileInstance.GetComponent<ProyectileScript>();
+
+        CameraPositionScript.current.currentObjectiveGO = proyectileInstance;
+
         var posY = transform.position.y - sprite.size.y / 4;
         int exitDirection = 0;
 

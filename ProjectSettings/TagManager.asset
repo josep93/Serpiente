@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Proyectable
   - Activable
+  - PureTrigger
+  - Proyectile
   layers:
   - Default
   - TransparentFX

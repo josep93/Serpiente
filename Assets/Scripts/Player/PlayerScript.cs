@@ -225,6 +225,12 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    public void EndIt()
+    {
+        state = 0;
+        playerAnimator.CurtainFall();
+    }
+
     public void Raise()
     {
         playerAnimator.Raise();

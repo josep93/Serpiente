@@ -122,6 +122,7 @@ MonoBehaviour:
   proyectile: {fileID: 4585800579456548520, guid: c65cc85e8b02e234796d1b8e2b56a143, type: 3}
   proyectable: {fileID: 8554419251042352480}
   sprite: {fileID: 0}
+  pushable: 0
   type: 2
   direction: 0
 --- !u!70 &8554419251042352481
@@ -137,8 +138,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07932173, y: -1.2346034}
-  m_Size: {x: 2.4458773, y: 1.0357751}
+  m_Offset: {x: 0.07932175, y: -1.0181981}
+  m_Size: {x: 2.4458783, y: 1.6070943}
   m_Direction: 1
 --- !u!95 &5889637574730130929
 Animator:

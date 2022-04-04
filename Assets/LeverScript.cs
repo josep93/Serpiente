@@ -13,7 +13,6 @@ public class LeverScript : MonoBehaviour, Activable
     {
         animator = GetComponent<Animator>();
         activable = activableGO.GetComponent<Activable>();
-        Debug.Log(activable);
     }
 
     // Update is called once per frame
@@ -29,6 +28,7 @@ public class LeverScript : MonoBehaviour, Activable
             Animate();
             activated = true;
             activable.Activate();
+            StartCoroutine(ShakeScript.current.CameraShake(3f, 0.05f));
         }
     }
 

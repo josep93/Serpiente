@@ -5,6 +5,7 @@ using UnityEngine;
 public class DoorScript : MonoBehaviour, Activable
 {
     [SerializeField] private GameObject door;
+    [SerializeField] private bool vertical;
     private Collider2D collider;
     private SpriteRenderer sprite;
 
@@ -24,7 +25,14 @@ public class DoorScript : MonoBehaviour, Activable
     private IEnumerator OpenDoor(){
     for(float i = 0; i < 2; i += 0.2f)
         {
-            door.transform.position += new Vector3(0.1f, 0, 0);
+            if (!vertical)
+            {
+                door.transform.position += new Vector3(0.1f, 0, 0);
+            }
+            else
+            {
+                door.transform.position += new Vector3(0, 0.1f, 0);
+            }
             yield return new WaitForSeconds(0.05f);
         }
     }

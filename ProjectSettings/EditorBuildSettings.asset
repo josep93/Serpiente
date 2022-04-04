@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScenes/Templo.unity
     guid: e2bde5649b3657d4f81702c4689573b9
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Playa2.unity
+    guid: 4ad405492b67afd48ae3c87426ceb537
   m_configObjects: {}

@@ -52,11 +52,14 @@ public class ProyectileScript : MonoBehaviour
         if (collision.gameObject.tag == "Proyectable")
         {
             ProyectableScript proyectableScript = collision.GetComponent<ProyectableScript>();
-            proyectableScript.Collide(gameObject,direction);
+            proyectableScript.Collide(gameObject, direction);
             Destroy(this.gameObject);
             return;
         }
-        PlayerScript.current.Unlock();
-        Destroy(this.gameObject);
+        else if (collision.gameObject.tag != "PureTrigger")
+        {
+            PlayerScript.current.Unlock();
+            Destroy(this.gameObject);
+        }
     }
 }

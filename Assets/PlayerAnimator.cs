@@ -5,7 +5,7 @@ public class PlayerAnimator
     private Animator animator;
     private PlayerScript player;
     private SpriteRenderer sprite;
-    private bool forced;
+    private bool forced, endpoint = false;
     private string[,,] animation = { { { "Idle_E", "Idle_N", "Idle_W", "Idle_S" },
             { "Move_E", "Move_N", "Move_W", "Move_S" },
         { "Throw_E", "Throw_N", "Throw_W", "Throw_S" },
@@ -18,6 +18,7 @@ public class PlayerAnimator
             { "Bell_Move_E", "Bell_Move_N", "Bell_Move_W", "Bell_Move_S" },
         {"Bell_Throw_E", "Bell_Throw_N", "Bell_Throw_W", "Bell_Throw_S" },
         { "Bell_Raise_E", "Bell_Raise_N", "Bell_Raise_W", "Bell_Raise_S" } } };
+    private string endAnimation = "Clam_Death";
     private string currentAnimation;
 
 
@@ -30,14 +31,14 @@ public class PlayerAnimator
 
     public void Animate()
     {
-        if (!animator.GetCurrentAnimatorStateInfo(0).loop && animator.GetCurrentAnimatorStateInfo(0).normalizedTime>1)
+        if (!animator.GetCurrentAnimatorStateInfo(0).loop && animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
         {
             forced = false;
         }
-        if (!forced)
+        if (!forced && !endpoint)
         {
             Play(animation[player.Helmet, player.AnimState, player.Direction]);
-            sprite.sortingOrder = -(int)(player.transform.position.y*10);
+            sprite.sortingOrder = -(int)(player.transform.position.y * 10);
         }
     }
 
@@ -68,5 +69,13 @@ public class PlayerAnimator
             animator.Play(animation);
             currentAnimation = animation;
         }
+    }
+
+    public void CurtainFall()
+    {
+        forced = true;
+        endpoint = true;
+        animator.Play(endAnimation);
+        currentAnimation = (endAnimation);
     }
 }
