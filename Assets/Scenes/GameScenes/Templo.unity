@@ -2796,11 +2796,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175748294870486986, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.47
+      value: -0.53
       objectReference: {fileID: 0}
     - target: {fileID: 175748294870486986, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.06
+      value: -7.64
       objectReference: {fileID: 0}
     - target: {fileID: 175748294870486986, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4817,7 +4817,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeOutSprite: {fileID: 1031423117}
-  sound: {fileID: 1832041297}
 --- !u!61 &1832041294
 BoxCollider2D:
   m_ObjectHideFlags: 0
