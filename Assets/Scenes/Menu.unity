@@ -2214,6 +2214,7 @@ MonoBehaviour:
   selectButton: {fileID: 8300000, guid: df1eae7a737258b43851006e462827be, type: 3}
   longSelectButton: {fileID: 8300000, guid: de9bbc2e981afaa439bde51d0a887fe8, type: 3}
   windBeach: {fileID: 8300000, guid: d41d4cfade1c628419f856df9cc3129e, type: 3}
+  templeWind: {fileID: 8300000, guid: 7724728f4f5198e4a8856c7426582050, type: 3}
 --- !u!1 &1645336730
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class LeverScript : MonoBehaviour, Activable
 {
     private Animator animator;
     [SerializeField]private GameObject activableGO;
+    [SerializeField] private AudioSource sound;
     private Activable activable;
     private bool activated = false;
     // Start is called before the first frame update
@@ -26,6 +27,7 @@ public class LeverScript : MonoBehaviour, Activable
         if (!activated)
         {
             Animate();
+            sound.Play();
             activated = true;
             activable.Activate();
             StartCoroutine(ShakeScript.current.CameraShake(3f, 0.05f));

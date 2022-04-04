@@ -513,8 +513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188.76, y: -90.78001}
-  m_SizeDelta: {x: 380.94, y: 52.2169}
+  m_AnchoredPosition: {x: -45.99141, y: -90.78001}
+  m_SizeDelta: {x: 666.4772, y: 52.2169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &168963787
 MonoBehaviour:
@@ -538,8 +538,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Yet, the cicle continues
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
+  m_sharedMaterial: {fileID: 5606000044948924955, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1004,8 +1004,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Some time was gained
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
+  m_sharedMaterial: {fileID: 5606000044948924955, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2431,8 +2431,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -143}
-  m_SizeDelta: {x: 303.4152, y: 52.2169}
+  m_AnchoredPosition: {x: -14.0007, y: -143}
+  m_SizeDelta: {x: 575.4139, y: 52.2169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1109941702
 MonoBehaviour:
@@ -2456,8 +2456,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'as it ever has. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
+  m_sharedMaterial: {fileID: 5606000044948924955, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2811,8 +2811,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: and another vessel was lost.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
+  m_sharedMaterial: {fileID: 5606000044948924955, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3270,8 +3270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.7100016, y: -195.22}
-  m_SizeDelta: {x: 470.4652, y: 52.2169}
+  m_AnchoredPosition: {x: 75.21269, y: -195.22}
+  m_SizeDelta: {x: 624.3107, y: 52.2169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873239275
 MonoBehaviour:
@@ -3295,8 +3295,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: And Hopefully. As it ever will.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
+  m_sharedMaterial: {fileID: 5606000044948924955, guid: 47e8f5a173a010548b413fdaa50344c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

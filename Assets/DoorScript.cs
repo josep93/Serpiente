@@ -6,6 +6,7 @@ public class DoorScript : MonoBehaviour, Activable
 {
     [SerializeField] private GameObject door;
     [SerializeField] private bool vertical;
+    [SerializeField] private AudioSource sound;
     private Collider2D collider;
     private SpriteRenderer sprite;
 
@@ -20,6 +21,7 @@ public class DoorScript : MonoBehaviour, Activable
         sprite.sortingLayerName="Foreground";
         collider.enabled = false;
         StartCoroutine("OpenDoor");
+        sound.Play();
     }
 
     private IEnumerator OpenDoor(){

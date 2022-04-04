@@ -19,6 +19,10 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private GameObject actionColliderGO;
     [SerializeField] private Collider2D actionCollider;
 
+    [SerializeField] private AudioSource sound;
+    [SerializeField] private AudioClip sonidoLanzamiento;
+    [SerializeField] private AudioClip sonidoPasos;
+
     /// <summary>
     /// 0 = stunlocked
     /// 1 = free
@@ -52,6 +56,7 @@ public class PlayerScript : MonoBehaviour
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         playerAnimator = new PlayerAnimator(this);
+        sound.pitch = 1.7f;
     }
 
     private void ActionPlayer()
@@ -69,9 +74,10 @@ public class PlayerScript : MonoBehaviour
         if (run)
         {
             speed = 5f;
+            sound.pitch = 2;
             return;
         }
-
+        sound.pitch = 1.7f;
         speed = 2.5f;
     }
 
@@ -101,6 +107,8 @@ public class PlayerScript : MonoBehaviour
             var proyectileInstance = GameObject.Instantiate(proyectile, proyectilePosition, Quaternion.identity);
             var proyectileScript = proyectileInstance.GetComponent<ProyectileScript>();
             proyectileScript.Initialize(direction);
+            sound.clip = sonidoLanzamiento;
+            sound.Play();
             playerAnimator.ThrowUsed();
             state = 0;
             StartCoroutine("TimedUnlock");
@@ -123,11 +131,20 @@ public class PlayerScript : MonoBehaviour
             movement = input.Player.Move.ReadValue<Vector2>();
             if (movement.magnitude > 0.1)
             {
+                if (!sound.isPlaying)
+                {
+                    sound.clip = sonidoPasos;
+                    sound.Play();
+                }
                 animState = 1;
                 MovementToAxis();
             }
             else
             {
+                if (sound.isPlaying)
+                {
+                    sound.Stop();
+                }
                 animState = 0;
             }
         }
@@ -143,9 +160,14 @@ public class PlayerScript : MonoBehaviour
         var absX = Mathf.Abs(movement.x);
         var absY = Mathf.Abs(movement.y);
 
+        if (absX == 0 && absY == 0)
+        {
+
+        }
+
         if (absY == absX)
         {
-        rgb2.MovePosition(rgb2.position + movement * speed * Time.fixedDeltaTime);
+            rgb2.MovePosition(rgb2.position + movement * speed * Time.fixedDeltaTime);
             return;
         }
         direction = 0;

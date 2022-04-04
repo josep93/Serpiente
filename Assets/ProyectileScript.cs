@@ -5,12 +5,12 @@ public class ProyectileScript : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
     private int direction;
+
     [SerializeField] private int velocity;
     [SerializeField] private Sprite[] sprites;
 
     private void Start()
     {
-
     }
 
     public void Initialize(int direction)
@@ -51,6 +51,7 @@ public class ProyectileScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Proyectable")
         {
+            
             ProyectableScript proyectableScript = collision.GetComponent<ProyectableScript>();
             proyectableScript.Collide(gameObject, direction);
             Destroy(this.gameObject);
