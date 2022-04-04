@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 70508e01395c5ff46811b230df3de121
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7091982434682901554
+    second: Idl_y_movimiento_piedra_4
+  - first:
+      213: 473610435278064417
+    second: Idl_y_movimiento_piedra_7
+  - first:
+      213: -1683100337549045878
+    second: Idl_y_movimiento_piedra_19
+  - first:
+      213: 1761502687848934674
+    second: Idl_y_movimiento_piedra_21
+  - first:
+      213: -7656234928245210160
+    second: Idl_y_movimiento_piedra_22
+  - first:
+      213: -4219995782615173256
+    second: Idl_y_movimiento_piedra_24
+  - first:
+      213: -69835462637959526
+    second: Idl_y_movimiento_piedra_30
+  - first:
+      213: -8492492041039456908
+    second: Idl_y_movimiento_piedra_39
+  - first:
+      213: -2317570999774224357
+    second: Idl_y_movimiento_piedra_40
+  - first:
+      213: -1769390615551510965
+    second: Idl_y_movimiento_piedra_55
+  - first:
+      213: 744247905987914885
+    second: Idl_y_movimiento_piedra_56
+  - first:
+      213: 6804752864858953188
+    second: Idl_y_movimiento_piedra_57
+  - first:
+      213: -6952199060120346004
+    second: Idl_y_movimiento_piedra_58
+  - first:
+      213: 1480520021027915598
+    second: Idl_y_movimiento_piedra_60
+  - first:
+      213: 5440572001111436037
+    second: Idl_y_movimiento_piedra_64
+  - first:
+      213: 7613317086369125637
+    second: Idl_y_movimiento_piedra_67
+  - first:
+      213: 5291340050787084911
+    second: Idl_y_movimiento_piedra_68
+  - first:
+      213: -7951953409779124930
+    second: Idl_y_movimiento_piedra_69
+  - first:
+      213: -1813778021819937960
+    second: Idl_y_movimiento_piedra_71
+  - first:
+      213: 2499582970582900364
+    second: Idl_y_movimiento_piedra_73
+  - first:
+      213: 4637160933122486773
+    second: Idl_y_movimiento_piedra_74
+  - first:
+      213: 499468361480097863
+    second: Idl_y_movimiento_piedra_75
+  - first:
+      213: 2316897972866415186
+    second: Idl_y_movimiento_piedra_76
+  - first:
+      213: 6332765171485929687
+    second: Idl_y_movimiento_piedra_77
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2981
+        width: 172
+        height: 308
+      alignment: 9
+      pivot: {x: 0.508006, y: 0.60283154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb6a63fc87349d90800000000000000
+      internalID: -7091982434682901554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_7
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2978
+        width: 151
+        height: 299
+      alignment: 9
+      pivot: {x: 0.554717, y: 0.67501044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bcaac7e2a929600800000000000000
+      internalID: 473610435278064417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2574
+        width: 159
+        height: 314
+      alignment: 9
+      pivot: {x: 0.47401744, y: 0.67542124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21da12c9c5d127810800000000000000
+      internalID: 1761502687848934674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_22
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2561
+        width: 151
+        height: 332
+      alignment: 9
+      pivot: {x: 0.536478, y: 0.6617623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d38101b5e69fb590800000000000000
+      internalID: -7656234928245210160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_24
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1789
+        width: 153
+        height: 343
+      alignment: 9
+      pivot: {x: 0.4999992, y: 0.53211766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8777397b1309f65c0800000000000000
+      internalID: -4219995782615173256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_30
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1784
+        width: 215
+        height: 309
+      alignment: 9
+      pivot: {x: 0.3526861, y: 0.64260775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964db84405e70ff0800000000000000
+      internalID: -69835462637959526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_39
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1781
+        width: 158
+        height: 294
+      alignment: 9
+      pivot: {x: 0.473853, y: 0.6451997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475d20cdb7b942a80800000000000000
+      internalID: -8492492041039456908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_40
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1789
+        width: 149
+        height: 274
+      alignment: 9
+      pivot: {x: 0.49999958, y: 0.6206179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10e5b8647556dfd0800000000000000
+      internalID: -2317570999774224357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_55
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1395
+        width: 182
+        height: 323
+      alignment: 9
+      pivot: {x: 0.40163815, y: 0.60231984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46742b1c9cd177e0800000000000000
+      internalID: -1769390615551510965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_56
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1378
+        width: 188
+        height: 328
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.5755701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cec3df689145a00800000000000000
+      internalID: 744247905987914885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_57
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1383
+        width: 168
+        height: 292
+      alignment: 9
+      pivot: {x: 0.516393, y: 0.6037506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e55d3e6da65f6e50800000000000000
+      internalID: 6804752864858953188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_58
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1379
+        width: 209
+        height: 304
+      alignment: 9
+      pivot: {x: 0.59883195, y: 0.67666185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62e8b50ac3d48f90800000000000000
+      internalID: -6952199060120346004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_67
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1000
+        width: 152
+        height: 293
+      alignment: 9
+      pivot: {x: 0.54529774, y: 0.6503952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505917f8d8fe7a960800000000000000
+      internalID: 7613317086369125637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_68
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 988
+        width: 155
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5177682, y: 0.69074106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a26f0ddbd9e6940800000000000000
+      internalID: 5291340050787084911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_69
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 989
+        width: 151
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5547174, y: 0.66485894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35b8ab418cf4a190800000000000000
+      internalID: -7951953409779124930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_71
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 991
+        width: 159
+        height: 295
+      alignment: 9
+      pivot: {x: 0.53464264, y: 0.6633797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b030cbf7a24d6e0800000000000000
+      internalID: -1813778021819937960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_73
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 608
+        width: 150
+        height: 294
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.6733031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e9538e77d40b220800000000000000
+      internalID: 2499582970582900364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_75
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 613
+        width: 152
+        height: 283
+      alignment: 9
+      pivot: {x: 0.5090593, y: 0.6557095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740519614d77ee600800000000000000
+      internalID: 499468361480097863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_76
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 604
+        width: 151
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5182386, y: 0.6667717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a768d4e66472020800000000000000
+      internalID: 2316897972866415186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idl_y_movimiento_piedra_77
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 597
+        width: 189
+        height: 284
+      alignment: 9
+      pivot: {x: 0.42713952, y: 0.6988005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0726cfe5082e750800000000000000
+      internalID: 6332765171485929687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

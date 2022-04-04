@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 47b27bd71e1dc5641b59353a8f8abd3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8433477585909383506
+    second: Lanzamiento_piedra_0
+  - first:
+      213: -142057066608842655
+    second: Lanzamiento_piedra_1
+  - first:
+      213: -3223987535445345144
+    second: Lanzamiento_piedra_2
+  - first:
+      213: 4682973073611122061
+    second: Lanzamiento_piedra_3
+  - first:
+      213: -3692719473832651127
+    second: Lanzamiento_piedra_5
+  - first:
+      213: 7658011964750746477
+    second: Lanzamiento_piedra_7
+  - first:
+      213: 9011115386659460000
+    second: Lanzamiento_piedra_9
+  - first:
+      213: -4791009904412591742
+    second: Lanzamiento_piedra_14
+  - first:
+      213: 5439575923779474524
+    second: Lanzamiento_piedra_15
+  - first:
+      213: -8239239174705068374
+    second: Lanzamiento_piedra_17
+  - first:
+      213: -5386372154678482510
+    second: Lanzamiento_piedra_18
+  - first:
+      213: -8959450731351676596
+    second: Lanzamiento_piedra_19
+  - first:
+      213: -5657140371398285759
+    second: Lanzamiento_piedra_21
+  - first:
+      213: 7549880461442259543
+    second: Lanzamiento_piedra_23
+  - first:
+      213: -7517340901159874583
+    second: Lanzamiento_piedra_24
+  - first:
+      213: 4813910912438361900
+    second: Lanzamiento_piedra_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_0
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2863
+        width: 189
+        height: 284
+      alignment: 9
+      pivot: {x: 0.40316045, y: 0.6127801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaef6ae61d446fa80800000000000000
+      internalID: -8433477585909383506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_1
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2861
+        width: 185
+        height: 308
+      alignment: 9
+      pivot: {x: 0.42580006, y: 0.6225625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16822feb9df470ef0800000000000000
+      internalID: -142057066608842655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_2
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 2875
+        width: 164
+        height: 319
+      alignment: 9
+      pivot: {x: 0.48604974, y: 0.5717184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c3e7dfa681243d0800000000000000
+      internalID: -3223987535445345144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_5
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 2248
+        width: 196
+        height: 407
+      alignment: 9
+      pivot: {x: 0.43714094, y: 0.52162296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98699031433d0ccc0800000000000000
+      internalID: -3692719473832651127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2288
+        width: 170
+        height: 300
+      alignment: 9
+      pivot: {x: 0.43943965, y: 0.62201744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63d8acde49b64a60800000000000000
+      internalID: 7658011964750746477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_9
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 2253
+        width: 193
+        height: 303
+      alignment: 9
+      pivot: {x: 0.43616417, y: 0.7033071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3d4e383b9ed0d70800000000000000
+      internalID: 9011115386659460000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1794
+        width: 162
+        height: 301
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.64033747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289fb1430e9e28db0800000000000000
+      internalID: -4791009904412591742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_17
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1806
+        width: 147
+        height: 297
+      alignment: 9
+      pivot: {x: 0.57183963, y: 0.6955624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6c83cbf9758ad80800000000000000
+      internalID: -8239239174705068374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_19
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1799
+        width: 167
+        height: 290
+      alignment: 9
+      pivot: {x: 0.57551837, y: 0.61850333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c496b2f6703a9a380800000000000000
+      internalID: -8959450731351676596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1318
+        width: 234
+        height: 290
+      alignment: 9
+      pivot: {x: 0.56769466, y: 0.64566106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a9de8574096c860800000000000000
+      internalID: 7549880461442259543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_24
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1312
+        width: 159
+        height: 290
+      alignment: 9
+      pivot: {x: 0.4974204, y: 0.6624015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc9da674a0da790800000000000000
+      internalID: -7517340901159874583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanzamiento_piedra_25
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1313
+        width: 149
+        height: 301
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6578795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fd34c38727ec240800000000000000
+      internalID: 4813910912438361900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -187,6 +187,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5448612238453113359, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
+      propertyPath: helmet
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5448612238453113359, guid: a836aef7fe4ff6e41a26bcd93181987b, type: 3}
       propertyPath: proyectile
       value: 
       objectReference: {fileID: 4585800579456548520, guid: c65cc85e8b02e234796d1b8e2b56a143, type: 3}
@@ -265,7 +269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8554419251042352485, guid: 2095af7bf9ed47f40a299f784efd7c39, type: 3}
       propertyPath: direction
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2095af7bf9ed47f40a299f784efd7c39, type: 3}

@@ -60,7 +60,7 @@ public class ProyectableScript : MonoBehaviour
                 direction = 1;
                 break;
         }
-        if (oldType != 0)
+        if (oldType == 2)
         {
             switch (oldDirection)
             {

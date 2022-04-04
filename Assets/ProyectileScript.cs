@@ -20,7 +20,6 @@ public class ProyectileScript : MonoBehaviour
         this.direction = direction;
         if (direction == 1)
         {
-            sprite.sortingOrder = PlayerScript.current.Sprite.sortingOrder;
             sprite.sortingOrder = PlayerScript.current.Sprite.sortingOrder - 1;
         }
         else{

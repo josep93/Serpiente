@@ -16,18 +16,21 @@ public class PlayerScript : MonoBehaviour
     private PlayerAnimator playerAnimator;
     private int animState = 0;
 
+    [SerializeField] private GameObject actionColliderGO;
+    [SerializeField] private Collider2D actionCollider;
+
     /// <summary>
     /// 0 = stunlocked
     /// 1 = free
     /// </summary>
-    private int state = 1;
+    public int state = 1;
 
     [SerializeField] private GameObject proyectile;
 
     [SerializeField] public static PlayerScript current;
 
     public int Direction { get => direction; set => direction = value; }
-    public int AnimState { get => animState; }
+    public int AnimState { get => animState;}
     public SpriteRenderer Sprite { get => sprite; }
     public Animator Animator { get => animator; }
     public int Helmet { get => helmet; set => helmet = value; }
@@ -42,8 +45,6 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        input.Player.Move.performed += ctxMove => MovePlayer(ctxMove);
-        input.Player.Move.canceled += ctxNotMove => NotMove();
         input.Player.Run.performed += ctxRun => Run(true);
         input.Player.Run.canceled += ctxWalk => Run(false);
         input.Player.Action.performed += ctxAction => ActionPlayer();
@@ -55,7 +56,8 @@ public class PlayerScript : MonoBehaviour
 
     private void ActionPlayer()
     {
-        
+        actionCollider.enabled = true;
+        StartCoroutine("DeactivateActivate");
     }
 
     /// <summary>
@@ -101,6 +103,8 @@ public class PlayerScript : MonoBehaviour
             proyectileScript.Initialize(direction);
             playerAnimator.ThrowUsed();
             state = 0;
+            StartCoroutine("TimedUnlock");
+            NotMove();
         }
     }
 
@@ -112,20 +116,26 @@ public class PlayerScript : MonoBehaviour
     /// <summary>
     /// Detectamos la dirección a la que se mueve el juagdor
     /// </summary>
-    /// <param name="ctxMove"></param>
-    private void MovePlayer(UnityEngine.InputSystem.InputAction.CallbackContext ctxMove)
+    private void MovePlayer()
     {
         if (state == 1)
         {
-            movement = ctxMove.ReadValue<Vector2>();
-            animState = 1;
-            MovementToAxis();
+            movement = input.Player.Move.ReadValue<Vector2>();
+            if (movement.magnitude > 0.1)
+            {
+                animState = 1;
+                MovementToAxis();
+            }
+            else
+            {
+                animState = 0;
+            }
         }
     }
 
     public void Die()
     {
-        
+
     }
 
     private void MovementToAxis()
@@ -135,6 +145,7 @@ public class PlayerScript : MonoBehaviour
 
         if (absY == absX)
         {
+        rgb2.MovePosition(rgb2.position + movement * speed * Time.fixedDeltaTime);
             return;
         }
         direction = 0;
@@ -166,6 +177,9 @@ public class PlayerScript : MonoBehaviour
                 return;
         }
         */
+
+        rgb2.MovePosition(rgb2.position + movement * speed * Time.fixedDeltaTime);
+
     }
 
     /// <summary>
@@ -173,12 +187,42 @@ public class PlayerScript : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
-        rgb2.MovePosition(rgb2.position + movement * speed * Time.fixedDeltaTime);
+        MovePlayer();
     }
 
     private void Update()
     {
         playerAnimator.Animate();
+        PlaceActionCollider();
+    }
+
+    private void PlaceActionCollider()
+    {
+        switch (direction)
+        {
+            case 0:
+                actionColliderGO.transform.position = transform.position +  Vector3.right;
+                break;
+            case 1:
+                actionColliderGO.transform.position = transform.position + Vector3.up;
+                break;
+            case 2:
+                actionColliderGO.transform.position = transform.position + Vector3.left;
+                break;
+            case 3:
+                actionColliderGO.transform.position = transform.position + Vector3.down;
+                break;
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Activable")
+        {
+            var activable = collision.gameObject.GetComponent<Activable>();
+            activable.Activate();
+        }
     }
 
     public void Raise()
@@ -186,4 +230,14 @@ public class PlayerScript : MonoBehaviour
         playerAnimator.Raise();
     }
 
+    private IEnumerator TimedUnlock()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Unlock();
+    }
+    private IEnumerator DeactivateActivate()
+    {
+        yield return new WaitForSeconds(0.1f);
+        actionCollider.enabled = false;
+    }
 }

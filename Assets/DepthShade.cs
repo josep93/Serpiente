@@ -8,7 +8,7 @@ public class DepthShade : MonoBehaviour
     [SerializeField] private Color color;
     [SerializeField] private float alfa;
     [SerializeField] private int minY, maxY;
-
+    [SerializeField] bool inversed = false;
 
     private void Start()
     {
@@ -18,12 +18,27 @@ public class DepthShade : MonoBehaviour
     private void Update()
     {
         var playerPos = PlayerScript.current.transform.position.y;
-        if (playerPos > minY)
+        if (!inversed)
         {
-            alfa = (1-((float)maxY - playerPos)) / 2;
+            if (playerPos > minY)
+            {
+                alfa = (1 - ((float)maxY - playerPos)) / 2;
+            }
+            else
+            {
+                alfa = 0;
+            }
         }
-        else {
-            alfa = 0;
+        else
+        {
+            if (playerPos < maxY)
+            {
+                alfa = (((float)minY - playerPos)) / 2;
+            }
+            else
+            {
+                alfa = 0;
+            }
         }
         color.a = alfa;
         sprite.color = color;
