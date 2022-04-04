@@ -3,8 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SoundController : MonoBehaviour
 {
-    [SerializeField] private AudioClip selectButton;
-    [SerializeField] private AudioClip longSelectButton;
+    
     [SerializeField] private AudioClip windBeach;
     [SerializeField] private AudioClip templeWind;
     private static SoundController current;
@@ -25,31 +24,9 @@ public class SoundController : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         this.scene = scene;
-        Debug.Log("Event");
-        if (scene.name == "Menu")
-        {
-            sound.clip = selectButton;
-            sound.pitch = 2;
-            return;
-        }
-
-        sound.pitch = 1;
 
         if (scene.name == "Playa" || scene.name == "Playa2")
         {
@@ -67,23 +44,4 @@ public class SoundController : MonoBehaviour
         }
 
     }
-
-    public void SelectButton()
-    {
-        if (sound != null)
-        {
-            sound.clip = selectButton;
-            sound.Play();
-        }
-    }
-
-    public void LongSelectButton()
-    {
-        if (sound != null)
-        {
-            sound.clip = longSelectButton;
-            sound.Play();
-        }
-    }
-
 }
